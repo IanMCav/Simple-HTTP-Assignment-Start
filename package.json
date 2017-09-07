@@ -1,0 +1,29 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "simple http assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanMCav/Simple-HTTP-Assignment-Start.git"
+  },
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests Complete\""
+    },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IanMCav/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/IanMCav/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^3.0.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.10.1"
+  }
+}
